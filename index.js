@@ -11,6 +11,7 @@ const app = express()
 
 app.get('/', function (req, res) {
   res.send('Hello World')
+  console.log('check');
 })
 app.post('/getuser',function(req,res){
 var data={
