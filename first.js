@@ -1,0 +1,1 @@
+var first =require('./second')
